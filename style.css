@@ -149,6 +149,36 @@ body{
     left: 45%;
 }
 
+.redStatus{
+    color: #EB5757;
+    background: rgba(235, 87, 87, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 17px;
+    width: 77px;
+    position: absolute;
+    left: 45%;
+}
+
+.greenStatus{
+    background:rgba(39, 174, 96, 0.2);;
+    color: #27AE60;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 17px;
+    width: 77px;
+    position: absolute;
+    left: 45%;
+}
+
 .statusV2{
     display: flex;
     align-items: center;
@@ -258,4 +288,32 @@ body{
     align-items: center;
     background: #F2F2F2;
     margin-right: 10px;
+}
+
+.paddingTop{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.paddingTop span{
+    margin-right: 25px;
+}
+
+.headerStatus{
+    border-radius: 10px;
+    height: 17px;
+    width: 77px;
+    color: #EB5757;
+    background: rgba(235, 87, 87, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.inactiveTable{
+    opacity: 30%;
+    margin-bottom: 100px;;
 }
