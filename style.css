@@ -3,3 +3,100 @@ body{
     padding: 0;
 }
 
+.topNavbar{
+    display: flex;
+    width: 100vw;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.topNavbar .leftSideBox{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.topNavbar .leftSideBox .searchIcon{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.topNavbar .leftSideBox .greyText{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.topNavbar .rightSideBox{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.topNavbar .rightSideBox .avatarBox{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.topNavbar .rightSideBox .avatarBox img{
+    border-radius: 50%;
+}
+
+.topNavbar .rightSideBox .bellIcon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contentBox{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.contentBox .leftBar{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contentBox .leftBar .header{
+    font-size: 36px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contentBox .leftBar .header .pinkText{
+    color: pink;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contentBox .leftBar .header .addButton{
+    display: flex;
+    margin-left: 35px;
+    background: #884CB2;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    font-size: 12px;
+    line-height: 9px;
+}
+
+.contentBox .leftBar .header .addButton img{
+    height: 18px;
+    width: 18px;
+    padding-right: 15px;
+}
+
+.ellipse{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(133.9deg, rgba(243, 71, 122, 0.7) 0.24%, rgba(136, 76, 178, 0.7) 95.04%);
+}
