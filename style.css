@@ -130,8 +130,6 @@ body{
     line-height: 18px;
     display: flex;
     justify-content: center;
-    position: absolute;
-    left: 45%;
 }
 
 .blueStatus{
@@ -145,8 +143,6 @@ body{
     border-radius: 10px;
     height: 17px;
     width: 77px;
-    position: absolute;
-    left: 45%;
 }
 
 .redStatus{
@@ -160,8 +156,6 @@ body{
     border-radius: 10px;
     height: 17px;
     width: 77px;
-    position: absolute;
-    left: 45%;
 }
 
 .greenStatus{
@@ -175,15 +169,11 @@ body{
     border-radius: 10px;
     height: 17px;
     width: 77px;
-    position: absolute;
-    left: 45%;
 }
 
 .statusV2{
     display: flex;
     align-items: center;
-    position: absolute;
-    left: 60%;
 }
 
 .statusV2 span{
@@ -228,8 +218,6 @@ body{
 
 .spectators{
     display: flex;
-    position: absolute;
-    left: 75%;
 }
 
 .oval{
@@ -316,4 +304,12 @@ body{
 .inactiveTable{
     opacity: 30%;
     margin-bottom: 100px;;
+}
+
+.flex2{
+    flex: 2;
+}
+
+.flex5{
+    flex: 5;
 }
