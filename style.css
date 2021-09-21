@@ -43,6 +43,18 @@ body{
 
 .topNavbar .rightSideBox .avatarBox img{
     border-radius: 50%;
+    border: 2px solid orange;
+    padding:1px;
+}
+
+.orangeDot{
+    width: 10px;
+    height: 10px;
+    background: orange;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+    right: 8px;
 }
 
 .topNavbar .rightSideBox .bellIcon{
@@ -116,15 +128,13 @@ body{
     height: 10px;
     border-radius: 50%;
     margin-right: 10px;
-    background: linear-gradient(133.9deg, rgba(243, 71, 122, 0.7) 0.24%, rgba(136, 76, 178, 0.7) 95.04%);
+    background: linear-gradient(133.9deg, rgba(243, 71, 122, 0.2) 0.24%, rgba(136, 76, 178, 0.2) 95.04%);
 }
 
 .status{
     border-radius: 10px;
     height: 17px;
     width: 77px;
-    color: #F2994A;
-    background: rgba(242, 153, 74, 0.2);
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     line-height: 18px;
@@ -132,43 +142,24 @@ body{
     justify-content: center;
 }
 
-.blueStatus{
-    background:rgba(86, 204, 242, 0.2);
-    color: #56CCF2;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    line-height: 18px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    height: 17px;
-    width: 77px;
-}
-
-.redStatus{
-    color: #EB5757;
-    background: rgba(235, 87, 87, 0.2);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    line-height: 18px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    height: 17px;
-    width: 77px;
-}
-
-.greenStatus{
+.colorStatus-Green{
     background:rgba(39, 174, 96, 0.2);;
     color: #27AE60;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    line-height: 18px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    height: 17px;
-    width: 77px;
+}
+
+.colorStatus-Red{
+    color: #EB5757;
+    background: rgba(235, 87, 87, 0.2);
+}
+
+.colorStatus-Blue{
+    background:rgba(86, 204, 242, 0.2);
+    color: #56CCF2;
+}
+
+.colorStatus-Orange{
+    color: #F2994A;
+    background: rgba(242, 153, 74, 0.2);
 }
 
 .statusV2{
@@ -193,27 +184,22 @@ body{
 }
 
 .ellipseV2{
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+    margin-right: 3px;
+}
+
+.ellipseV2-Green{
     border: solid green 2px;
-    border-radius: 50%;
-    height: 4px;
-    width: 4px;
-    margin-right: 3px;
 }
 
-.ellipseV2orange{
+.ellipseV2-Orange{
     border:solid 2px #F2C94C;
-    border-radius: 50%;
-    height: 4px;
-    width: 4px;
-    margin-right: 3px;
 }
 
-.ellipseV2red{
+.ellipseV2-Red{
     border: 2px solid #EB5757;
-    border-radius: 50%;
-    height: 4px;
-    width: 4px;
-    margin-right: 3px;
 }
 
 .spectators{
